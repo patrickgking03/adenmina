@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aden Mina</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo"></span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+						<li><a href="#education">Education</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Aden Mina</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/aden.heic" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I'm a Finance and Accounting Student<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Asset and Wealth Management Intern at Morgan Stanley
+				</p>
+				<a href="files/resume.pdf" class="download-button" download="Resume.pdf">Download Resume</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="work section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="work-list">
+				<li>August 2020 - May 2024</li>
+				<li><a href="#">Loyola Marymount University</a></li>
+				<li>Bachelor of Business Administration</li>
+				<li>Finance Major, Accounting Minor</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>June 2022 - Present</li>
+				<li><a href="#">Morgan Stanley Wolfslau Group</a></li>
+				<li>Wealth and Asset Management Intern</li>
+			</ul>
+			<ul class="work-list">
+				<li>August 2020 - November 2022</li>
+				<li><a href="#">Loyola Marymount University, NCAA Division 1 Men's Waterpolo</a></li>
+				<li>Student-Athlete</li>
+			</ul>
+			<ul class="work-list">
+				<li>October 2019 - December 2020</li>
+				<li><a href="#">Cutco Cutlery</a></li>
+				<li>Sales Representative and Advisor</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="list section" id="skills">
+		<div class="container">
+			<h1>Skills</h1>
+			<ul class="skills-list">
+                <li>Financial Modeling</li>
+                <li>Corporate Communications</li>
+				<li>Microsoft Excel Certification</li>
+				<li>Bloomberg Certification</li>
+				<li>Proficient in Financial Reporting</li>
+                <li>Time Management</li>
+                <li>Strong Communication Skills</li>
+                <li>Business Development</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>""</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Created by Patrick King, About Aden Mina</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="aden.mina@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/adenmina/"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Financial Modeling", "Corporate Communications", "Financial Reporting"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
